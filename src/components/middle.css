@@ -1,0 +1,23 @@
+
+.item{
+    height: 30px;
+    width: 160px;
+    padding: 4px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.item:hover{
+   
+    border-radius: 3px;
+  
+    background-color: #E5F1FF;
+    /* border-radius: 3px;
+    font-weight: 700;
+    height: 9px;
+    width: 160px; */
+    
+    
+
+}
