@@ -46,9 +46,9 @@ const SideDeals = () => {
   }, []);
 
   return (
-    <div className='w-full p-4 border md:flex border border-gray-300 rounded-md mb-4  mx-auto h-[23vh] md:h-[50vh]'>
+    <div className='w-full p-2 pb-2 border md:flex  border-gray-300 rounded-md mb-10  mx-auto h-[25vh] md:h-[50vh]'>
 
-      <div className=' p-6  border border-gray-200  w-[400px] hidden md:block'>
+      <div className=' p-6  w-[400px] hidden md:block'>
       <div className='font-semibold'>Deals And Offers</div>
       <div className='text-gray-400'>Hygiene equipments</div>
 
@@ -77,7 +77,7 @@ const SideDeals = () => {
       <div className='flex min-w-max md:h-full'>
         {
           items.slice(11, 21).map((item,idx) => (
-            <div key={idx} onClick={()=>handleViewDetails(item)} className=' flex gap-2 w-[20vh] md:w-[35vh] p-3 border border-gray-300 flex-col md:h-full items-center justify-center'>
+            <div key={idx} onClick={()=>handleViewDetails(item)} className=' flex gap-2 w-[20vh] md:w-[35vh] p-3 border-l  border-gray-300   flex-col md:h-full items-center justify-center'>
               <div className=''><img src={item.images[0].url} className='h-20 object-contain mb-3' alt="" /></div>
               <div className='flex flex-col gap-1 justify-center items-center'>
                 <p className='text-gray-500 text-sm'>{item.title} </p>
