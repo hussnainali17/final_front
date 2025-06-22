@@ -3,7 +3,7 @@ import React from 'react'
 const Group = () => {
   return (
     <div className='w-full max-w-[1100px] h-[400px] mx-auto relative overflow-hidden'>
-      <img src="src/images/Mask.png" alt="" className='object-cover w-full h-full rounded-lg' />
+      <img src="https://i.postimg.cc/W4jDx35W/Mask.png" alt="" className='object-cover w-full h-full rounded-lg' />
 
       <div className="absolute top-4 left-1 right-1 md:top-7 md:left-7 md:right-auto text-white p-2 rounded w-[98vw] md:w-full max-w-full">
         {/* Responsive flex container */}

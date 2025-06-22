@@ -1,15 +1,15 @@
 import React from 'react'
 const items = [
-  { id: 1, name: 'North America', img: 'src/images/icon.png' ,text:'shopname.ae'},
-  { id: 2, name: 'Europe', img: 'src/images/icon.png',text:'shopname.ae' },
-  { id: 3, name: 'Asia', img: 'src/images/icon.png',text:'shopname.ae' },
-  { id: 4, name: 'Africa', img: 'src/images/icon.png',text:'shopname.ae' },
-  { id: 5, name: 'Australia', img: 'src/images/icon.png',text:'shopname.ae' },
-  { id: 6, name: 'South America', img: 'src/images/icon.png',text:'shopname.ae' },
-  { id: 7, name: 'Antarctica', img: 'src/images/icon.png',text:'shopname.ae' },
-  { id: 8, name: 'Middle East', img: 'src/images/icon.png',text:'shopname.ae' },
-  { id: 9, name: 'Central America', img: 'src/images/icon.png',text:'shopname.ae' },
-  { id: 10, name: 'Caribbean', img: 'src/images/icon.png',text:'shopname.ae' },
+  { id: 1, name: 'North America', img: 'https://i.postimg.cc/jdmP3RVm/icon.png' ,text:'shopname.ae'},
+  { id: 2, name: 'Europe', img: 'https://i.postimg.cc/7Yt10gY3/icon-1.png',text:'shopname.ae' },
+  { id: 3, name: 'Asia', img: 'https://i.postimg.cc/Z51rD4N0/icon-2.png',text:'shopname.ae' },
+  { id: 4, name: 'Africa', img: 'https://i.postimg.cc/XYZf8ppT/icon-4.png',text:'shopname.ae' },
+  { id: 5, name: 'Australia', img: 'https://i.postimg.cc/DzL19HQ6/icon-5.png',text:'shopname.ae' },
+  { id: 6, name: 'South America', img: 'https://i.postimg.cc/B6324pM0/icon-6.png',text:'shopname.ae' },
+  { id: 7, name: 'Antarctica', img: 'https://i.postimg.cc/HxtXxMh7/icon-7.png',text:'shopname.ae' },
+  { id: 8, name: 'Middle East', img: 'https://i.postimg.cc/J04JBhfY/icon-8.png',text:'shopname.ae' },
+  { id: 9, name: 'Central America', img: 'https://i.postimg.cc/zvthwr5z/icon-9.png',text:'shopname.ae' },
+  { id: 10, name: 'Caribbean', img: 'https://i.postimg.cc/zvthwr5z/icon-9.png',text:'shopname.ae' },
 ];
 
 const Region = () => {

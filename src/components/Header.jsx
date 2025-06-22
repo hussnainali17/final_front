@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useLocation, useNavigate } from 'react-router-dom';
 import MobileMenu from './Menu';
 
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -82,7 +83,7 @@ const Header = () => {
                   <i className="fa-solid fa-bars text-xl text-gray-600" />
                 </button>
                 <div className="w-[44px] h-[44px] bg-blue-500 rounded-xl flex items-center justify-center shadow-[8px_0_0_rgba(96,165,250,0.4)]">
-                  <img src="src/images/logo.png" alt="logo" className="w-8 h-8 object-contain" />
+                  <img src="/images/logo.png" alt="logo" className="w-8 h-8 object-contain" />
                 </div>
                 <h1 className="text-blue-400 text-2xl font-bold">Brand</h1>
               </>
@@ -142,7 +143,7 @@ const Header = () => {
       <div className="hidden md:flex w-full h-[86px] items-center justify-between px-4 md:px-12 py-2">
         <div className="flex items-center space-x-2 mb-2 md:mb-0">
           <div className="w-[44px] h-[44px] bg-blue-500 rounded-xl flex items-center justify-center shadow-[8px_0_0_rgba(96,165,250,0.4)]">
-            <img src="src/images/logo.png" alt="logo" className="w-8 h-8 object-contain" />
+            <img src="https://i.postimg.cc/wBdJHFjk/logo.png" alt="logo" className="w-8 h-8 object-contain" />
           </div>
           <h1 className="text-blue-400 text-2xl md:text-4xl font-bold">Brand</h1>
         </div>

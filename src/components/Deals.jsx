@@ -7,12 +7,12 @@ import axios from "axios";
 const categories = [
   {
     title: "Home and outdoor",
-    image: "src/images/Group.png",
+    image: "https://i.postimg.cc/HkM5fFdx/Group.png",
     button: true,
   },
   {
     title: "Consumer electronics and gadgets",
-    image: "src/images/gadgets.png",
+    image: "https://i.postimg.cc/7PBg7gKx/gadgets.png",
     button: true,
   },
 ];
@@ -134,14 +134,14 @@ export default function ProductGrid({ groupedProducts }) {
       <CategoryBlock
         title="Home and outdoor"
         items={homeAndOutdoor}
-        image="src/images/Group.png"
+        image="https://i.postimg.cc/HkM5fFdx/Group.png"
         button={true}
         onItemClick={handleViewDetails}
       />
       <CategoryBlock
         title="Consumer electronics and gadgets"
         items={electronics}
-        image="src/images/gadgets.png"
+        image="https://i.postimg.cc/7PBg7gKx/gadgets.png"
         button={true}
         onItemClick={handleViewDetails}
       />

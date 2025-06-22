@@ -65,6 +65,9 @@ const Detail = () => {
             <img key={i} src={product.images[0].url} alt={product.title} className='h-[30px] w-[30px] md:h-[40px] md:w-[40px] border border-gray-300 object-cover' />
           ))}
         </div>
+         <button className='bg-blue-500 text-white py-2 px-4 rounded-md w-full hidden md:block' onClick={handleAddToCart}>Add To Cart</button>
+
+        
       </div>
 
       {/* Details Section */}
@@ -127,7 +130,7 @@ const Detail = () => {
       {/* Supplier Section */}
       <div className='flex flex-col border border-gray-300 p-5 rounded-md m-0 md:m-4 w-full md:w-1/3'>
         <div className='flex justify-center items-center gap-2 p-3 border-b border-b-gray-300'>
-          <img src="src/images/Avatar.png" alt="" className='h-[40px] w-[40px] object-cover' />
+          <img src="https://i.postimg.cc/nzpvKT8L/Avatar.png" alt="" className='h-[40px] w-[40px] object-cover' />
           <div className='flex flex-col'>
             <p>Supplier</p>
             <p>Guanjoi Trading LLC</p>
@@ -136,7 +139,7 @@ const Detail = () => {
 
         <div className='flex flex-col p-3 gap-3'>
           <div className='flex gap-5 items-center'>
-            <img src="src/images/icon.png" className='h-[15px] w-[20px]' alt="" />
+            <img src="https://i.postimg.cc/XYZf8ppT/icon-4.png" className='h-[15px] w-[20px]' alt="" />
             <p>Germany</p>
           </div>
           <div className='flex gap-5 items-center'>

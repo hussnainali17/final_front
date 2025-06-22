@@ -6,7 +6,7 @@ const footer = () => {
       <div className='flex flex-col gap-4 w-full lg:w-auto'>
         <div className='flex gap-3 items-center'>
           <div className="w-[44px] h-[44px] bg-blue-500 rounded-xl flex items-center justify-center shadow-[8px_0_0_rgba(96,165,250,0.4)]">
-            <img src="src/images/logo.png" alt="" />
+            <img src="https://i.postimg.cc/wBdJHFjk/logo.png" alt="" />
           </div>
           <h1 className="text-blue-400 text-2xl lg:text-4xl font-bold">Brand</h1>
         </div>

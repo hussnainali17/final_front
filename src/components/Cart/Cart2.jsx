@@ -86,11 +86,11 @@ const Cart2 = () => {
         </button>
 
         <div className="flex justify-center md:justify-start gap-2 flex-wrap">
-          <img src="src/images/payment.png" alt="Visa" className="h-6" />
-          <img src="src/images/payment-1.png" alt="Mastercard" className="h-6" />
-          <img src="src/images/payment-2.png" alt="Stripe" className="h-6" />
-          <img src="src/images/payment-3.png" alt="PayPal" className="h-6" />
-          <img src="src/images/payment-4.png" alt="Apple Pay" className="h-6" />
+          <img src="https://i.postimg.cc/tJfZcNcW/payment-3.png" alt="Visa" className="h-6" />
+          <img src="https://i.postimg.cc/RFSHJFf6/payment-1.png" alt="Mastercard" className="h-6" />
+          <img src="https://i.postimg.cc/RFSHJFf6/payment-1.png" alt="Stripe" className="h-6" />
+          <img src="https://i.postimg.cc/qR1CsTXm/payment-2.png" alt="PayPal" className="h-6" />
+          <img src="https://i.postimg.cc/G3Sy9bpt/payment-4.png" alt="Apple Pay" className="h-6" />
         </div>
       </div>
     </div>

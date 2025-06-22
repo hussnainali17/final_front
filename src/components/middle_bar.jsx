@@ -25,7 +25,7 @@ const MiddleBar = () => {
 
       {/* Middle Banner – Always Visible */}
       <div className='relative w-full md:w-auto'>
-        <img src="src/images/banner.png" alt="Banner" className='w-full md:w-auto' />
+        <img src="https://i.postimg.cc/yYk0TkG0/banner.png" alt="Banner" className='w-full md:w-auto' />
         <div className='absolute top-8 left-8 space-y-5'>
           <div>
             <p className='text-xl md:text-2xl'>Latest Trending</p>
@@ -39,7 +39,7 @@ const MiddleBar = () => {
       <div className='hidden md:flex flex-col justify-between items-center mr-2 h-[360px] space-x-4'>
         <div className='ml-2 w-[200px] h-[150px] flex flex-col items-center justify-center bg-blue-200 p-2 rounded-md'>
           <div className='flex justify-center items-center p-2'>
-            <img src="src/images/Avatar.png" alt="Avatar" />
+            <img src="https://i.postimg.cc/nzpvKT8L/Avatar.png" alt="Avatar" />
             <div>
               <p className='text-[10px]'>Hi {UCON?.name || 'user'}</p>
               <p className='text-[10px]'>Let's Get Started</p>
